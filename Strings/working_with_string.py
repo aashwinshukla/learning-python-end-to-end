@@ -37,9 +37,13 @@ print(phrase[0])
 #[ ] helps to call out specific alphabet or character of the string 
 #indexing starts from 0
 
-print(phrase.index("w"))
+print(phrase.index("H"))
 #here we give the program a parameter or value to find from the variable phrase 
 #if inside "" i put capital H it will return 0 
 #if inside "" i put Wor then it will return 7 which is the starting index of Wor
 #this is case sensitive if you put lower case w it will not return 7 
+
+print(phrase.replace("World", "India"))
+#this will replace world with india 
+#result = Hello India 
 
