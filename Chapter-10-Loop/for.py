@@ -9,3 +9,7 @@ for friend in friends:
     
 #here each name of friend is getting printed on different lines
 
+for index in range(10):
+    print(index)
+    
+# here 0 to 9 all number get printed
