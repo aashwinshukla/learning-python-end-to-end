@@ -8,3 +8,5 @@ result = float(num1) + float(num2)
 #if you would input the num1 as 1 and num2 as 9 then result would be 19 without the function
 
 print(result)
+
+#later we will make a much more complicated calculator
