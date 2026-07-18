@@ -7,3 +7,5 @@ age = input("Enter your age: ")
 print("hello "+name+ "!")
 print("you are "+age+ " year old")
 #at last we can print the input out
+print("hello "+name+ "! You are "+age)
+#another way of writing
