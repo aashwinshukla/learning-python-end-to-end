@@ -7,6 +7,8 @@ character_name = "mark"
 
 character_age = "26"  #or just 26 
 #character_age in the variable here which hold the value in ""
+#you can store any kind of number, from decimal to extremely big number easily in the variable
+
 
 print("there was once a man name "+ character_name +".")
 print("he was "+ character_age +" years old") 
@@ -21,3 +23,12 @@ print("there was a man named "+character_name+".")
 #there was once a man name mark.
 #he was 26 years old
 #there was a man named joe.
+
+is_male = False
+#this is a bool values which can also declared but True or False initial should be capital 
+
+#three main data type 
+#1. string
+#2. number 
+#3. bool
+
