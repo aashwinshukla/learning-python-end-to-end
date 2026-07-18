@@ -18,4 +18,4 @@ user("Steve")
 
 #now here this will print mike and steve name while running the code
 #if you know c it is pretty similar 
-
+# you can add as many parameters you want
