@@ -7,3 +7,15 @@ def say_hi():
 #because you need to call the function first 
 
 say_hi()
+
+# we can also add parameter inside the ( ) of the function 
+
+def user(name):
+    print("hello "+name)
+
+user("Mike")
+user("Steve")
+
+#now here this will print mike and steve name while running the code
+#if you know c it is pretty similar 
+
