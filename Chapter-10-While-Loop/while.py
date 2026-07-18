@@ -1,0 +1,8 @@
+#looping or repeating a code till the condition is true 
+
+i=1
+while i<=10:
+    print(i)
+    i += 1
+    
+print("done with loop")
