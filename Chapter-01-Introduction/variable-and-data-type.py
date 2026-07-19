@@ -32,3 +32,10 @@ is_male = False
 #2. number 
 #3. bool
 
+
+# modern or correct way of writing would be 
+
+name = "Mike"
+print(f"hello {name}!")
+
+#here we used f string and {} to print the variable.
