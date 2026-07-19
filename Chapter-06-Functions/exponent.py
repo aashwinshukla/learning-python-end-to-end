@@ -17,3 +17,4 @@ friends = 5
 friends **= 2 # or
 friends = friends ** 2
 # this means friends raise to power 2
+

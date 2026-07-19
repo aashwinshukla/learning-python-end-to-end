@@ -22,7 +22,7 @@ my_num = 5
 print(str(my_num))
 #will change number into string...even though when code will run you will not be able to differentiate since it will still return 5
 
-print(my_num + "my favorite number")
+#print(my_num + "my favorite number")
 #here we didnt changed to string thats why the code will not run 
 #therefore in above cases str() is used
 
@@ -59,6 +59,8 @@ print(sqrt(36))
 
 #etc.....
 
-
-
-
+#another thing you can do with imported math file is
+import math
+print(math.pi)
+print(math.e)
+# and get value of pi and e 
