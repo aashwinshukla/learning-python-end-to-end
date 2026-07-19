@@ -10,3 +10,10 @@ def raise_to_power(base_num, pow_num):
 print(raise_to_power(2, 3))
 
 #the above loop will loop the multiplication pow_num times creating a exponent formula
+
+# another basic way of writing exponents is 
+
+friends = 5
+friends **= 2 # or
+friends = friends ** 2
+# this means friends raise to power 2
