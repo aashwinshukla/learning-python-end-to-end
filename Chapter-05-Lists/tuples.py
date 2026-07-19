@@ -1,6 +1,6 @@
 # tuple is similar to list but once declared cannot be changed
 # tuple are with () and list are with []
-
+# tuple = () ordered and unchangeable. duplicate ok. faster
 
 coordinates = (4, 5)
 
