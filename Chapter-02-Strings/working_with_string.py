@@ -69,3 +69,4 @@ name.isdigit()
 name.isalpha()
 # if completely string then true 
 
+# .count() will count the reacurrence of whatever is in "" inside the ()
