@@ -64,3 +64,6 @@ import math
 print(math.pi)
 print(math.e)
 # and get value of pi and e 
+# when used import math 
+# always write math.sqrt(), math.ceil(), math.floor(), etc
+# you cant just write ceil() like we did using from math import
