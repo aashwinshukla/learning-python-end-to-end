@@ -37,3 +37,16 @@ for index in range(len(friends)):
 
 # we can use continue keyword to skip a value return 
 # we can also use break keyword to finish the loop 
+
+#we can do something with this 
+
+import time
+
+my_time = int(input("Enter the time in seconds "))
+
+for x in range(0, my_time):
+    time.sleep(1)
+print("TIMES UPP")
+
+#lets say my input is 5 sec then after 5 sec i will get times up 
+
