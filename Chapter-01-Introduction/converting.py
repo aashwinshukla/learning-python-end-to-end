@@ -28,3 +28,9 @@ print(type(age))
 # when you check type you will see that age has become string will 
 # if a num is converted into string then it can cause problem when solving maths
 
+#interesting part is when 
+name = bool(name)
+
+# here answer is always true and only false if string is empty so you can use this to see if someone entered something or not
+
+
