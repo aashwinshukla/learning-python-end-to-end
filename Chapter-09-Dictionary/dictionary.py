@@ -23,3 +23,12 @@ print(monthConversion.get("Dec", "not a valid key "))
 #here we have also declared a default as well 
 #key can be number as well 
 
+keys = monthConversion.keys()
+for key in monthConversion.keys: 
+    print(key)
+#this will only print keys
+
+values = monthConversion.values()
+for value in monthConversion.values(): 
+    print(value)
+# this will print only values and not key 
