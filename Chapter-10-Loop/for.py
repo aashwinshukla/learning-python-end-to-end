@@ -50,3 +50,15 @@ print("TIMES UPP")
 
 #lets say my input is 5 sec then after 5 sec i will get times up 
 
+for x in range(my_time, 0, -1):
+    seconds = x % 60
+    minutes = int(x/60) % 60
+    hours = int(x/3600) 
+    print(f"{hours:02}:{minutes:02}:{seconds:02}")
+    time.sleep(1)
+
+    
+print("TIMES UPP")
+
+# this will run 00:00:00 format and in backwards 
+
