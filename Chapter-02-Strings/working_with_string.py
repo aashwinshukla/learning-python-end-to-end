@@ -47,3 +47,25 @@ print(phrase.replace("World", "India"))
 #this will replace world with india 
 #result = Hello India 
 
+
+# other modern ways of doing all this are
+
+name = input("Enter your name : ")
+
+result = name.find(" ")
+print(result)
+# now once you type your name the name.find will find what ever is inside " "
+#right now there is a empty space so it will tell its first occurance index
+
+name.rfind("")
+# if the word or phrase is not found and the function used is rfind it will return negative number 
+
+name = name.capitalize()
+#this will capitalize the first alphabet 
+
+name.isdigit()
+# if string is only number then returns true else false
+
+name.isalpha()
+# if completely string then true 
+
