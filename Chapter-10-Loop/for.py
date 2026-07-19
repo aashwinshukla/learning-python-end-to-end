@@ -21,7 +21,12 @@ for index in range(10):
 # 7
 # 8 
 # 9 
-
+# you can also write starting and ending point 
+#for index in range(1,11):
+#for index in range(1, 11, 2):
+# 2 means it will jump by 2 like the code will return 1 3 5.....
+#we can use reverse instead of range and we will have reverse countdown
+ 
 
 for index in range(len(friends)):
     print(friends[index])
@@ -30,3 +35,5 @@ for index in range(len(friends)):
 
 # you can add if function or other inside of for function or vice versa make things work better
 
+# we can use continue keyword to skip a value return 
+# we can also use break keyword to finish the loop 
