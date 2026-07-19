@@ -16,3 +16,13 @@ doubles = [x * 2 for x in range(1, 11)]
 
 print(doubles)
 
+# can also be used in string 
+
+fruits = ["apple", "orange", "coconut", "pineapple"]
+fruits = [fruit.upper() for fruit in fruits ]
+print(fruits)
+
+#OR simpler 
+
+fruits = [fruit.upper() for fruit in ["apple", "orange", "coconut", "pineapple"] ]
+print(fruits)
