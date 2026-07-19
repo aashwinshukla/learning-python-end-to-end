@@ -67,3 +67,12 @@ print(math.e)
 # when used import math 
 # always write math.sqrt(), math.ceil(), math.floor(), etc
 # you cant just write ceil() like we did using from math import
+
+
+import math 
+radius = float(input("Enter radius of the circle"))
+circumference = 2 * math.pi * radius 
+
+print(f"the circumference of the circle is {round(circumference, 2)}cm")
+
+# above is a small use of maths 
