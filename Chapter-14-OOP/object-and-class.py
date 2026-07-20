@@ -31,3 +31,17 @@ print(car1.for_sale)
 
 # now we have commented the Car class and made a new file called carClass.py
 # and we will import the file at top 
+# now we can still run the program even though the class is in the other file 
+
+car1.drive()
+car1.stop()
+
+#we created methods in carClass.py  which are def drive(self) and def stop(self)
+#and thats what we printed using above statement 
+
+car1.describe()
+car2.describe()
+cae3,describe()
+# we created another method called def describe(self)
+# when we print here we get all knowledge about the car
+
