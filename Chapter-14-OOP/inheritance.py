@@ -36,4 +36,4 @@ dog.eat()
 # into all the new class we made called Dog , Cat , Mouse 
 # all we typed was pass and it still worked because it inherited the Animal class
 
- 
+# you will only need to change if needed in only class Animal and now every class you have 
