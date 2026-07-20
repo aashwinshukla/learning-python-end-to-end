@@ -16,8 +16,24 @@ class Animal:
 class Dog(Animal):      #taking from Animal
     pass
 
-class cat(Animal):      #taking from Animal
+class Cat(Animal):      #taking from Animal
     pass
 
-class mouse(Animal):    #taking from Animal
+class Mouse(Animal):    #taking from Animal
     pass
+
+dog = Dog("Scooby")
+cat = Cat("Garfield")
+mouse = Mouse("Mickey")
+
+print(dog.name)
+print(dog.is_alive)
+dog.sleep()
+dog.eat()
+
+
+# now here to our advantage we dont have to write the complete object inside the Animal class
+# into all the new class we made called Dog , Cat , Mouse 
+# all we typed was pass and it still worked because it inherited the Animal class
+
+ 
