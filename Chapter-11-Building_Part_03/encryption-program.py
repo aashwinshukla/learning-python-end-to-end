@@ -13,17 +13,28 @@ key = chars.copy()
 
 random.shuffle(key)
 
-key = chars.copy()
+
 print(f"chars : {chars}")
 print(f"key   : {key}")
 
 #ENCRYPT
-plain.text = input("Enter a message to encrypt: ")
+plain_text = input("Enter a message to encrypt: ")
 cipher_text = ""
 
 for letter in plain_text:
-    index = char.index(letter)
-    cipher.text += key[index]
+    index = chars.index(letter)
+    cipher_text += key[index]
+    
+print(f"original message : {plain_text}")
+print(f"encrypted message: {cipher_text}")
+
+#DECRYPTION
+plain_text = input("Enter a message to encrypt: ")
+cipher_text = ""
+
+for letter in plain_text:
+    index = chars.index(letter)
+    cipher_text += key[index]
     
 print(f"original message : {plain_text}")
 print(f"encrypted message: {cipher_text}")
